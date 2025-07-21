@@ -16,11 +16,11 @@ $todos = Todo::read();
 
 <body>
   <div class="flex justify-center items-center bg-slate-100 min-h-screen">
-    <div class="w-[800px] bg-white shadow-md rounded-lg p-6 mt-10">
+    <div class="w-[600px] bg-white shadow-md rounded-lg p-6 mt-10">
       <h1 class="text-3xl">Todo App</h1>
       <form action="process.php?action=create" method="POST">
         <div class="flex items-center mt-4">
-          <input name="todo" type="text" placeholder="Enter your todo" class="border border-gray-300 rounded-lg p-2 flex-grow mr-2">
+          <input name="todo" type="text" placeholder="Enter your todo" class="border border-gray-300 rounded-lg p-2 flex-grow mr-4">
           <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Add Todo</button>
         </div>
 
